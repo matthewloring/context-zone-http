@@ -1,0 +1,21 @@
+{
+  "name": "context-zone-http",
+  "version": "0.0.1",
+  "description": "Runs each http server request handler in a separate zone context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewloring/context-zone-http.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "context-zone": "github:matthewloring/context-zone"
+  }
+}
